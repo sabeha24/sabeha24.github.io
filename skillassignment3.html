@@ -7,6 +7,7 @@ body {
   background-color: #d2ebcd;
 }
 </style>
+
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -46,17 +47,16 @@ body {
 .dropdown:hover .dropbtn {background-color: #59bfff;}
 </style>
 </head>
+
+
+
 <body>
 <center>
 <h2>Big Music Club Conclomerate</h2> <center> 
-<p>Many events to follow with our big artists!</p>
-
-<div class="dropdown">
-  <button class="dropbtn">Big Hall</button>
-  <div class="dropdown-content">
-    <h2>Hall 1</h2>
- 		 myObject = {
-			"artist" : "Drake",
+<p>No upcoming events</p>
+<script>
+var myObj, x;
+myObj = {	"artist" : "Drake",
 			"venue": "Big Hall",
 			"date": "2019-12-20",
 			"city": "New York",
@@ -64,11 +64,23 @@ body {
 			"show_time":"22:00",
 			"price":"40",
 			"currency": "USD"
+};
+x = myObj.name;
+document.getElementById("demo").innerHTML = x;
+</script>
 
-}
+
+<div class="dropdown">
+  <button class="dropbtn">Big Hall</button>
+  <div class="dropdown-content">
+    <h2>Hall 1</h2>
+ 
   
   </div>
 </div>
+
+
+
 
 
 
@@ -113,14 +125,9 @@ body {
 </head>
 <body>
 
-
-
-<div class="dropdown">
-  <button class="dropbtn">Smokey Club</button>
-  <div class="dropdown-content">
-     <h2>CLub 1</h2>
- 		 myObject = {
-			"artist" : "Bjork",
+<script>
+var myObj, x;
+myObj = {	"artist" : "Bjork",
 			"venue": "Smokey Club",
 			"date": "2020-03-28",
 			"city": "Queens",
@@ -128,8 +135,15 @@ body {
 			"show_time":"21:00",
 			"price":"40",
 			"currency": "USD"
+x = myObj.name;
+document.getElementById("demo").innerHTML = x;
+</script>
 
-}
+<div class="dropdown">
+  <button class="dropbtn">Smokey Club</button>
+  <div class="dropdown-content">
+     <h2>Club 1</h2>
+ 
   </div>
 </div>
 
@@ -180,12 +194,9 @@ body {
 <body>
 
 
-<div class="dropdown">
-  <button class="dropbtn">Little Café</button>
-  <div class="dropdown-content">
-     <h2>Cafe 1</h2>
- 		 myObject = {
-			"artist" : "Madonna",
+<script>
+var myObj, x;
+myObj = {	"artist" : "Madonna",
 			"venue": "Little Café",
 			"date": "2020-03-25",
 			"city": "Brooklyn",
@@ -194,7 +205,20 @@ body {
 			"price":"45",
 			"currency": "USD"
 
-}
+x = myObj.name;
+document.getElementById("demo").innerHTML = x;
+</script>
+
+
+
+
+
+<div class="dropdown">
+  <button class="dropbtn">Little Café</button>
+  <div class="dropdown-content">
+     <h2>Cafe 1</h2>
+ 	
+
   </div>
 </div>
 
